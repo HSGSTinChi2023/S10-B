@@ -17,83 +17,56 @@ td {
     width: 50px;
     height: 50px;
 }
-#b1 {
+#b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16 {
     text-align: center;
     border-color: black;
 }
-#b2 {
-    text-align: center;
-    border-color: black;
-}
-#b3 {
-    text-align: center;
-    border-color: black;
-}
-#b4 {
-    text-align: center;
-    border-color: black;
-}
-#b5 {
-    text-align: center;
-    border-color: black;
-}
-#b6 {
-    text-align: center;
-    border-color: black;
-}
-#b7 {
-    text-align: center;
-    border-color: black;
-}
-#b8 {
-    text-align: center;
-    border-color: black;
-}
-#b9 {
-    text-align: center;
-    border-color: black;
-}
-#b10 {
-    text-align: center;
-    border-color: black;
-}
-#b11 {
-    text-align: center;
-    border-color: black;
-}
-#b12 {
-    text-align: center;
-    border-color: black;
-}
-#b13 {
-    text-align: center;
-    border-color: black;
-}
-#b14 {
-    text-align: center;
-    border-color: black;
-}
-#b15 {
-    text-align: center;
-    border-color: black;
-}
-#b16 {
-    text-align: center;
-    border-color: black;
-}
-.content{
-    text-align: center;
+.content1{
     font-size: 20px;
     color:rgb(66, 0, 0);
+    background-color: rgba(241, 156, 197, 0.8);
+    border-radius: 10px;
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    padding: 1%;
+}
+.content2{
+    float: right;
+    margin-right: 10%;
 }
 h1{
     color:blueviolet;
     text-align: center;
+    font-size: 50px;
 }
 .number1{
-    font-size: 40px;
+    font-size: 30px;
 }
 td{
     color:rgb(124, 74, 11);
     font-size:40px;
+}
+.num{
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(66, 0, 0);
+    background-color: rgba(252, 93, 178, 0.8);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+#submitbtn {
+    width: 10%;
+    background-color: #EA4C89;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+    margin-left: 65%;
+    margin-top: 15px;        touch-action: manipulation;
+
 }
